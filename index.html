@@ -1,0 +1,245 @@
+
+<?php
+
+$r = mt_rand(1, 6);
+switch($r){
+	case 1:
+	case 2:
+		/*
+		header('Location: http://www.whatscloser.com/');
+		die();
+		*/
+	break;
+	default:
+	break;
+}
+?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<title>DTV Answers : <?PHP
+switch(strtolower($_SERVER["PHP_SELF"])){
+	case "/index.html" :
+		$title="What you need to know about the June 12, 2009 switch to DTV.";
+	break;
+
+	case "/dtv_what.html" :
+		$title="What is Digital Telvision (DTV)?";
+	break;
+
+	case "/dtv_why.html" :
+		$title="Why the switch?";
+	break;
+
+	case "/dtv_when.html" :
+		$title="When is the DTV transition?";
+	break;
+
+	case "/dtv_affected.html" :
+		$title="Who is affected by the DTV transition?";
+	break;
+
+	case "/dtv_how.html" :
+		$title="How do I switch to DTV?";
+	break;
+
+	case "/dtv_converterbox.html" :
+		$title="DTV Converter Box Details";
+	break;
+
+	case "/dtv_spots.html" :
+		$title="Public Service Announcements";
+	break;
+
+	case "/dtv_faqs.html" :
+		$title="Frequently Asked Questions";
+	break;
+
+	case "/dtv_antenna.html" :
+		$title="Choosing An Antenna";
+	break;
+
+	case "/dtv_news.html" :
+		$title="News and Multimedia";
+	break;
+
+	case "/dtv_fullpower.html" :
+		$title="Full-Power and LPTV";
+	break;
+
+	case "/dtv_multicasting.html" :
+		$title="Multicasting";
+	break;
+
+	case "/dtv_switchover.html" :
+		$title="DTV Switchover Options";
+	break;
+
+	case "/dtv_who.html" :
+		$title="Who we are";
+	break;
+
+	case "/dtv_privacy.html" :
+		$title="Privacy Policy";
+	break;
+
+	case "/dtv_legal.html" :
+		$title="Legal Information";
+	break;
+
+	case "/dtv_ready.html" :
+		$title= "Get Ready for DTV";
+	break;
+
+	case "/esp_index.html" :
+		$title="Lo que necesita saber sobre el cambio a TV digital el 12 de junio en 2009";
+	break;
+
+	case "/esp_what.html" :
+		$title="&iquest;Qu&eacute; es TV digital?";
+	break;
+
+	case "/esp_why.html" :
+		$title="&iquest;Por qu&eacute; el cambio?";
+	break;
+
+	case "/esp_when.html" :
+		$title="&iquest;Cu&aacute;ndo ocurre?";
+	break;
+
+	case "/esp_affected.html" :
+		$title="&iquest;Qui&eacute;n est&aacute; afectado?";
+	break;
+
+	case "/esp_how.html" :
+		$title="&iquest;C&oacute;mo prepararse?";
+	break;
+
+	case "/esp_converterbox.html" :
+		$title="Detalles de la Caja Convertidora";
+	break;
+
+	case "/esp_antenna.html" :
+		$title="Elegir Una Antena";
+	break;
+
+	case "/esp_who.html" :
+		$title="Quien Somos";
+	break;
+
+	case "/esp_privacy.html" :
+		$title="Politica de Privacidad";
+	break;
+
+	case "/esp_legal.html" :
+		$title="Informacion Legal";
+	break;
+
+	case "/esp_ready.html" :
+		$title="&iquest;Prepare para TV digital?";
+	break;
+
+	case "/esp_switchover.html" :
+		$title="Opciones para Cambiar";
+	break;
+
+	case "/esp_30spots.html":
+		$title="Segmentos de Acci&oacute;n de TVD";
+	break;
+
+		
+}
+echo $title;
+?></title>
+<meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
+<meta name="author" content="John Beck McConnico, Patrick W. Moore" />
+<meta name="copyright" content="Crosby-Volmer International Communications" />
+
+<meta name="robots" content="index,follow" />
+<meta name="revisit-after" content="1" />
+<meta name="description" content="DTV Answers: What you need to know about the June 12, 2009 switch to Digital Television (DTV)" />
+<meta name="keywords" content="dtv,digital,tv,television,answers,transition,february,june 12,2009,fcc" />
+
+<link rel="stylesheet" href="css/master.css" type="text/css" />
+<script type="text/javascript" src="js/expand.js"></script>
+<script type="text/javascript" src="js/blurfield.js"></script>
+<script type="text/javascript" src="js/flash.js"></script>
+</head>
+<body><div id="container">
+<div id="logo"><a href="/"><img src="img/dtv-answers.gif" alt="DTV Answers" style="border: none;" width="182" height="76" /></a></div>
+<!-- TOP HEADER (TRANSLATE, SEARCH, SLOGAN) -->
+<div id="header">
+<div id="header-tag"><script type="text/javascript" src="/js/tick.js"></script>
+<div id="iC" style="width:390px; height:34px;">&nbsp;</div>
+<script type="text/javascript">
+runSlideShow();
+</script><br/><img src="img/slogan.gif" alt="Assisting you with the June 12, 2009 switch to Digital TV." width="390" height="17" /></div>
+<div id="header-action"><a href="espanol.php" style="font-size:11px; font-weight: bold;">&raquo; EN ESPA&Ntilde;OL</a>
+<br />&nbsp;<br /><form action="/search.php" method="post" style="padding-top:3px;"><label for="q">Query:<input type="text" name="q" id="q" value="Search the site" onfocus="javascript:blurfield(this,'Search the site');" /></label> <input type="image" src="img/search-go.gif" alt="Go" style="width:17px; height:17px; vertical-align: middle;" name="go" id="go" /></form></div>
+</div>
+<!-- NAVIGATION MENU -->
+<?PHP $thisId='1'; require('be_nav.php'); ?>
+
+<!-- COUNTDOWN FLASH MULTIMEDIA -->
+<div id="splash-countdown"><div id="splash-flash">
+
+<div style="width:350px; background:#fff; height:275px; margin-left:20px; margin-top:37px;"><object width="340" height="275"><param name="movie" value="http://www.youtube.com/v/MXvA2IYAyt8&hl=en&fs=1&"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/MXvA2IYAyt8&hl=en&fs=1&" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="340" height="275"></embed></object>
+</div>
+
+<br/></div></div>
+
+<!-- TEXT COPY -->
+<div id="splash-content"><div style="margin-right:50px;"><br /><table border="0" cellspacing="0" cellpadding="0" width="310"><tbody><tr valign="middle"><td align="left">&nbsp;<br/><h2>Free all-digital broadcast television is here.</h2></td><td align="right"></td></tr></tbody></table>
+
+<p>As of June 12, 2009, full-power television stations nationwide are broadcasting exclusively in a digital format. Digital television, or DTV, is a technology that gives viewers crystal-clear pictures and sound, and more programming choices than ever before.</p>
+<p>If you have not yet done so, you can still make the switch now.</p>
+
+<ul>
+<li>Purchase a converter box from an electronics retailer.<!-- <a href="https://www.dtv2009.gov/VendorSearch.aspx">coupon-eligible retailers</a>.--></li>
+<li><a href="http://dtv.gov/dtv_resources.htm">Get help</a> near you installing converter boxes.</li>
+<li><a href="http://dtv.gov/map.htm">Find local</a> DTV support centers and events.</li>
+<li>Use this interactive <a href="http://dtv.gov/iguide.htm">troubleshooting guide</a> to identify reception problems.</li>
+<li><a href="http://www.nab.org/dtv">Learn</a> how broadcasters have educated America.</li>
+<li>If you're having trouble receiving digital channels, <a href="/dtv_rescanning.html">try a double rescan</a>.</li>
+</ul>
+
+<p><strong>Still have questions? </strong>Call 1-888-CALL-FCC .</p>
+
+<form action="http://www.google.com/cse" id="cse-search-box" target="_blank">
+  <div>
+    <input type="hidden" name="cx" value="partner-pub-4146073583983343:1762246900" />
+    <input type="hidden" name="ie" value="UTF-8" />
+    <input type="text" name="q" size="25" />
+    <input type="submit" name="sa" value="Search" />
+  </div>
+</form>
+<script type="text/javascript" src="http://www.google.com/coop/cse/brand?form=cse-search-box&amp;lang=en"></script>
+
+<!-- <p><small>*Some stations will make the switch prior to June 12 due to unique technical issues. Please visit your local television station's Web site or contact them for details specific to your area.</p></small>  -->
+<br />&nbsp;</div></div>
+
+<!-- ACTION BOXES -->
+<table style="clear:both; border:none; width:762px; color: #fff; font-size: 11pt; font-weight: bold;" cellpadding="0" cellspacing="0">
+<tr valign="middle" align="center"><td style="width:13px;"></td><td class="action-box">
+<a href="/dtv_boxhookup.html"><img src="img/action-arrow.gif" alt="Arrow" style="width:10px; height:11px; border:none;" /> Install Your Box<br /><br /><script language="javascript" type="text/javascript" src="js/randomimg2.js"></script></a>
+</td><td style="width:8px;"></td><td class="action-box">
+	<a href="/dtv_faqs.html"><img src="https://dtvanswers.com/img/action-arrow.gif" alt="Arrow" style="width:10px; height:11px; border:none;" /> Frequently Asked Questions<br /><br /><img src="https://dtvanswers.com/img/thumbs/faq.gif" style="width:170px; height:85px; border:1px solid #fff;" alt="FAQ" /></a>
+</td><td style="width:8px;"></td><td class="action-box">
+	<a href="/dtv_rescanning.html"><img src="https://dtvanswers.com/img/action-arrow.gif" alt="Arrow" style="width:10px; height:11px; border:none;" /> Remember to Rescan<br /><br /><img src="https://dtvanswers.com/img/thumbs/rescanning.gif" alt="Rescanning" width="170" height="85" border="0" style="border:1px solid #fff;" /></a>
+	</td><td style="width:13px;"></td></tr></table>
+
+<div id="clear"> </div>
+</div>
+
+<div id="footer-img"><img src="img/footer.gif" alt="(none)" width="762" height="12" /></div>
+<div id="footer-txt">This Web site is <a href="http://validator.w3.org/check?uri=http%3A%2F%2Fwww.dtvanswers.com%2F">XHTML</a> compliant to meet accessibility guidelines for handicapped visitors. NAB is a proud founding member of the <a href="http://www.dtvtransition.org">DTV Transition Coalition</a>
+<br/>&copy; 2007 DTV Answers &nbsp; | &nbsp;
+<?PHP $thisId='1'; require('be_ftr.php'); ?>
+</div>
+<script src="http://www.google-analytics.com/urchin.js" type="text/javascript">
+</script>
+<script type="text/javascript">
+_uacct = "UA-753130-4";
+urchinTracker();
+</script>
+</body></html>
+<mg src="https://www.apkmirror.com/wp-content/themes/APKMirror/ap_resize/ap_resize.php?src=https%3A%2F%2Fdownloadr2.apkmirror.com%2Fwp-content%2Fuploads%2F2023%2F01%2F04%2F63c44ae063af2.png&w=96&h=96&q=100" alt="gong">
